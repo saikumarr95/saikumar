@@ -10,12 +10,14 @@ terraform {
       version = "~>3.0"
     }
   }
-  cloud {
+  /* cloud {
     organization = "terraform_sai"
 
     workspaces {
-      name = "terraformCloud_test"
+      name = "terraformTest_sai"
     
     }
+    
   }
+  */
 }
