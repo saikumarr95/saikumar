@@ -1,6 +1,6 @@
 data "azurerm_subnet" "virtualSubnets1" {
-    name                 =  "sn-staiopsstorage-eus"
-    virtual_network_name = "vnet-cis-aiops-d-eus"
-    resource_group_name  = "rg-AIOps-Corp-Connectivity-eus"
-    #count                = length(data.azurerm_virtual_network.virtualNetwork1.subnets)
+  name                 = "snet-eus-sample-001"
+  virtual_network_name = "vnet-eus-sample-001"
+  resource_group_name  = "rg-eus-sample-001"
+  #count                = length(data.azurerm_virtual_network.virtualNetwork1.subnets)
 }

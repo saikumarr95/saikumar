@@ -39,7 +39,7 @@ module "azure_storage" {
   location = each.value.location
 }
 #Definition for static webap
-
+/*
 module "azure_static_site" {
   source = "./modules/azure-staticwebapp"  # Update this with the path to your module
 
@@ -51,6 +51,7 @@ module "azure_static_site" {
   repository_url = each.value.repository_url
   branch = each.value.branch
 }
+*/
 
 #Definition for web app
 
